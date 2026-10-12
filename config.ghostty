@@ -1,0 +1,32 @@
+# Font settings from ~/.config/wezterm/miter/fonts.lua (macOS).
+font-size = 14
+
+# Regular and bold: Argon, with PingFang SC for Chinese.
+font-family = Monaspace Argon
+font-family = PingFang SC
+font-style = Regular
+
+font-family-bold = Monaspace Argon
+font-family-bold = PingFang SC
+font-style-bold = Bold
+
+# Match WezTerm's Xenon Regular/Bold faces for italic text.
+font-family-italic = Monaspace Xenon
+font-family-italic = LXGW Neo ZhiSong
+font-style-italic = Regular
+
+font-family-bold-italic = Monaspace Xenon
+# LXGW Neo ZhiSong has no Bold face; Ghostty currently falls back to
+# the regular Chinese font (PingFang SC) for bold italic characters.
+font-family-bold-italic = LXGW Neo ZhiSong
+font-style-bold-italic = Bold
+
+# OpenType features and ligatures.
+font-feature = calt=1
+font-feature = ss01=1
+font-feature = ss02=1
+font-feature = ss03=1
+font-feature = ss07=1
+font-feature = ss08=1
+font-feature = ss09=1
+font-feature = liga=1
